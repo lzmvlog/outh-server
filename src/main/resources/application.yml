@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  profiles: simple
+
+security:
+  oauth2:
+    client:
+      #      OAuth2客户端ID
+      client-id: client
+      #      Oauth2客户端机密。默认情况下会生成一个随机秘密
+      client-secret: client
